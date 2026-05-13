@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "bangumi-skill"
+version = "1.0.0"
+description = "Bangumi anime info query tool"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.25.0",
+    "beautifulsoup4>=4.9.0",
+]
